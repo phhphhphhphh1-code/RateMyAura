@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Rate your aura, get a ridiculous personality result, and share it with your friends.">
+<meta property="og:title" content="RateMyAura — What's Your Aura Score?">
+<meta property="og:description" content="Take the fast aura test and discover your chaotic personality score.">
+<title>RateMyAura — What's Your Aura?</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="#">RateMyAura ✦</a>
+  <a class="nav-link" href="#quiz">Take the test</a>
+</header>
+
+<main>
+
+<section class="hero">
+  <div class="pill">⚡ 30-SECOND AURA TEST</div>
+  <h1>What's your<br><span>aura score?</span></h1>
+  <p>Answer a few completely scientific questions. Get your aura. Judge your friends. Cause problems.</p>
+  <a class="button" href="#quiz">Rate my aura →</a>
+  <div class="mini-proof">
+    <span>🎯 Fast</span>
+    <span>😂 Actually fun</span>
+    <span>📱 Shareable</span>
+  </div>
+</section>
+
+<section id="quiz" class="quiz-wrap">
+  <div class="quiz-card">
+    <div class="progress"><div id="progressBar"></div></div>
+    <div class="step" id="stepLabel">Question 1 of 8</div>
+    <h2 id="question">Loading...</h2>
+    <div id="answers" class="answers"></div>
+  </div>
+</section>
+
+<section id="result" class="result-section hidden">
+  <div class="result-card">
+    <div class="result-kicker">YOUR AURA SCORE</div>
+    <div class="score" id="score">0</div>
+    <div class="result-title" id="resultTitle"></div>
+    <p id="resultText"></p>
+    <div class="stats" id="stats"></div>
+
+    <div class="share-card">
+      <strong>📸 Screenshot this.</strong>
+      <span>Then send it to the friend who thinks their aura is better.</span>
+    </div>
+
+    <div class="result-actions">
+      <button id="shareBtn">Share my aura ↗</button>
+      <button class="secondary" id="againBtn">Try again</button>
+    </div>
+  </div>
+</section>
+
+<section class="viral">
+  <div>
+    <small>THE REAL TEST</small>
+    <h2>Think your friend has more aura?</h2>
+    <p>Send them RateMyAura and compare scores.</p>
+  </div>
+  <a class="button" href="#quiz">Challenge a friend →</a>
+</section>
+
+<section class="about">
+  <small>DISCLAIMER</small>
+  <p>RateMyAura is made for entertainment. Your score is scientifically meaningless and emotionally important.</p>
+</section>
+
+</main>
+
+<footer>
+  <strong>RateMyAura ✦</strong>
+  <span>Made for maximum aura.</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
